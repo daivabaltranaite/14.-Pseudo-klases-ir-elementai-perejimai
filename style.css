@@ -1,0 +1,125 @@
+.atitraukimas {
+    margin-left: 50px;
+}
+
+.linkai a:hover {
+    color: tomato;
+    text-decoration: underline;
+}
+
+.linkai {
+    list-style: none;
+}
+
+.linkai li {
+    display: inline;
+}
+
+.linkai a {
+    color: black;
+    text-decoration: none;
+}
+
+.tekstas-pries::before {
+    content: "tekstas prieš ";
+    color: tomato;
+}
+
+.tekstas-po::after {
+    content: " tekstas po";
+    color: tomato;
+}
+
+.paveikslelis-pries::before {
+    content: url("./image/search.png");
+    color: tomato;
+}
+
+.paveikslelis-po::after {
+    content: url("./image/search.png");
+    color: tomato;
+}
+
+.elementas-pries::before {
+    content: " ";
+    display: inline-block;
+    width: 150px;
+    height: 10px;
+    background: tomato;
+}
+
+.elementas-po::after {
+    content: " ";
+    display: inline-block;
+    width: 150px;
+    height: 10px;
+    background: tomato;
+}
+
+.pazymetas-tekstas::selection {
+    background: tomato;
+}
+
+.pirma-raide-didzioji::first-letter {
+    font-size: 32px;
+    color: tomato;
+}
+
+.pirma-eilute::first-line {
+    background: tomato;
+
+}
+
+.nelyginiai-spalvoti li:nth-child(odd) {
+    background: tomato;
+}
+
+.lyginiai:nth-child(even) {
+    background: tomato;
+}
+
+.pasirinktas li:nth-child(3) {
+    text-decoration: underline;
+}
+
+.pasirinktas li:nth-child(4) {
+    color: tomato;
+}
+
+.pasirinktas li:nth-child(5) {
+    background: tomato;
+}
+
+.pirmas-elementas li:nth-child(1) {
+    color: tomato;
+}
+
+.paskutinis-elementas li:nth-child(6) {
+    color: tomato;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    background: tomato;
+}
+
+.keicia-spalva:hover {
+    background: darkcyan;
+}
+
+.keicia-dydi:hover {
+    width: 100%;
+    transition: width 1s ease;
+}
+
+.keicia-pozicija:hover {
+    margin-left: 100px;
+
+}
+
+
+
+
+
+
